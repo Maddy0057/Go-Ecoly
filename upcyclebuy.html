@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Upcycled Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            margin: 15px;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buy Upcycled Products</h1>
+        <p>Support sustainability with eco-friendly, upcycled products!</p>
+    </header>
+
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="images/upcycled_bag.jpg" alt="Upcycled Tote Bag">
+            <h2>Upcycled Tote Bag</h2>
+            <p>Handmade from recycled fabrics.</p>
+            <p><strong><del>₹1499/-</del> ₹999/-</strong></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="images/recycled_vase.jpg" alt="Recycled Glass Vase">
+            <h2>Recycled Glass Vase</h2>
+            <p>Stylish vase made from recycled glass bottles.</p>
+            <p><strong><del>₹999/-</del> ₹499/-</strong></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="images/upcycled_furniture.jpg" alt="Upcycled Wooden Stool">
+            <h2>Upcycled Wooden Stool</h2>
+            <p>Crafted from reclaimed wood.</p>
+            <p><strong><del>₹899/-</del> ₹399/-
+            </strong></p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
